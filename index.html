@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio Tutorial</title>
+  </head>
+
+  <body>
+    <div class="hero">
+      <!-- Navigation bar -->
+      <div class="nav-bar">
+        <nav>
+          <h2 class="logo">SnP<span>TechWiz</span></h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+          <a href="#" class="btn">Subscribe</a>
+        </nav>
+      </div>
+
+      <!-- First Section -->
+      <div class="first-section">
+        <div class="content">
+          <h4>Hi, Welcome to our club</h4>
+          <h1>SNP<span>TECHWIZ</span></h1>
+          <h3>We are a Tech Club from SRM IST</h3>
+          <div class="newsletter">
+            <form>
+              <input
+                type="email"
+                name="email"
+                id="mail"
+                placeholder="Enter Your Email"
+              />
+              <input type="submit" name="submit" value="Lets Start" />p
+            </form>
+          </div>
+        </div>
+        <div class="front-logo">
+          <img class="club-logo"src="./SNPxTechwizpng02.png" alt="" />
+          <!-- <img class="club-logo" src="./SNPxTechwizpng.png" alt="" /> -->
+          <!-- <div class="techgig"> -->
+            <!-- TECHNOLOGY PARTNER
+            <img
+              src="https://static.techgig.com/Themes/Release/images/tg_style_new/tg-logo.svg"
+              alt=""
+            /> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="about">
+      <div class="main">
+        <img src="./Group 57.png" alt="" />
+        <!-- <div class="syncc"><h1>SYYNCC</h1></div> -->
+        <div class="about-text">
+          <h2>About Us</h2>
+          <h5>Description</h5>
+          <p>
+            We are a Tech club . Who has sevral domains Such as Marketing,Design
+            etc . Our club conducts Events And bootcamp On various of growing
+            Skills which include AI,Metaverse,Data Analytics etc . We are
+            Technopolies who love to share our knowledge. We are of the belief
+            that Don't just learn, Experience. Don't just read, Absorb. Think
+            Tech. Think wizard!
+          </p>
+          <button>Let's Talk</button>
+        </div>
+      </div>
+    </div>
+
+    <!------- service section start --->
+    <div class="service">
+      <div class="title">
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5>Technical</h5>
+          <div class="pra">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              debitis enim porro non. Dolores tempora architecto praesentium
+              deserunt at incidunt neque, quidem qui eaque? Nam cum quasi
+              tenetur praesentium animi.
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-user"></i>
+          <h5>Marketing</h5>
+          <div class="pra">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              debitis enim porro non. Dolores tempora architecto praesentium
+              deserunt at incidunt neque, quidem qui eaque? Nam cum quasi
+              tenetur praesentium animi.
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-bell"></i>
+          <h5>Design</h5>
+          <div class="pra">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              quidem ab omnis quo ipsa aliquid, rem aperiam, quisquam quas
+              saepe, harum quae explicabo accusamus quaerat fugit nulla
+              repellendus? Perferendis, reiciendis!
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------- footer start ------->
+    <footer>
+      <p>SnpTechwiz</p>
+      <p>
+        For more HTML, CSS, and coding tutorial please click on the link below
+        to subscribe to our socials:
+      </p>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div>
+    </footer>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCLCgC9TkL3KDOTMhtYMbJOY29QCyExz-I",
+        authDomain: "syyncc-46d96.firebaseapp.com",
+        projectId: "syyncc-46d96",
+        storageBucket: "syyncc-46d96.appspot.com",
+        messagingSenderId: "387288443827",
+        appId: "1:387288443827:web:2a5e72a3e67c38c01b39c6",
+        measurementId: "G-M4V13W7ZY0",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
